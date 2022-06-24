@@ -1,7 +1,13 @@
 import React from "react";
 
-//create your first component
+const cards = {
+    title : "Card Title",
+    descriptcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitabus neque.",
+    descriptcionc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatea culpa natus architecto.",
+    buttonC: "Find Out More!"
+}
 
+//create your first component
 const Cards = () => {
 	return (
         <div className="py-5">
@@ -12,11 +18,11 @@ const Cards = () => {
                         aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
                         <rect width="100%" height="100%" fill="#B5B2B2"/><text x="40%" y="50%" fill="#eceeef" dy=".3em">500 x 325</text></svg>
                         <div className="card-body">
-                            <h5 className="card-title"><strong>Card Title</strong></h5>
-                            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitabus neque.</p>
+                            <h5 className="card-title"><strong>{cards.title}</strong></h5>
+                            <p className="card-text">{cards.descriptcion}</p>
                         </div>
                         <div className="card-footer">
-                            <a href="#" className="btn btn-primary">Find Out More!</a>
+                            <a href="#" className="btn btn-primary">{cards.buttonC}</a>
                         </div>
                     </div>
                 </div>
@@ -26,12 +32,11 @@ const Cards = () => {
                         aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
                         <rect width="100%" height="100%" fill="#B5B2B2"/><text x="40%" y="50%" fill="#eceeef" dy=".3em">500 x 325</text></svg>
                         <div className="card-body">
-                            <h5 className="card-title"><strong>Card Title</strong></h5>
-                            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente,
-                            tempore debitis beatea culpa natus architecto.</p>
+                            <h5 className="card-title"><strong>{cards.title}</strong></h5>
+                            <p className="card-text">{cards.descriptcionc}</p>
                         </div>
                         <div className="card-footer">
-                            <a href="#" className="btn btn-primary">Find Out More!</a>
+                            <a href="#" className="btn btn-primary">{cards.buttonC}</a>
                         </div>
                     </div>
                 </div>
@@ -41,11 +46,11 @@ const Cards = () => {
                         aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
                         <rect width="100%" height="100%" fill="#B5B2B2"/><text x="40%" y="50%" fill="#eceeef" dy=".3em">500 x 325</text></svg>
                         <div className="card-body">
-                            <h5 className="card-title"><strong>Card Title</strong></h5>
-                            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitabus neque.</p>
+                            <h5 className="card-title"><strong>{cards.title}</strong></h5>
+                            <p className="card-text">{cards.descriptcion}</p>
                         </div>
                         <div className="card-footer">
-                            <a href="#" className="btn btn-primary">Find Out More!</a>
+                            <a href="#" className="btn btn-primary">{cards.buttonC}!</a>
                         </div>
                     </div>
                 </div>
@@ -55,12 +60,11 @@ const Cards = () => {
                         aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
                         <rect width="100%" height="100%" fill="#B5B2B2"/><text x="40%" y="50%" fill="#eceeef" dy=".3em">500 x 325</text></svg>
                         <div className="card-body">
-                            <h5 className="card-title"><strong>Card Title</strong></h5>
-                            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente,
-                            tempore debitis beatea culpa natus architecto.</p>
+                            <h5 className="card-title"><strong>{cards.title}</strong></h5>
+                            <p className="card-text">{cards.descriptcionc}</p>
                         </div>
                         <div className="card-footer">
-                            <a href="#" className="btn btn-primary">Find Out More!</a>
+                            <a href="#" className="btn btn-primary">{cards.buttonC}</a>
                         </div>
                     </div>
                 </div>
