@@ -1,21 +1,20 @@
 import React from "react";
-import Nabvar from "./navbar";
-import Jumbotrom from "./main";
-import Cards from "./card";
-import Footers from "./footer";
+import Nabvar from "./navbar.jsx";
+import Jumbotrom from "./main.jsx";
+/*import Cards from "./card";*/
+import Footers from "./footer.jsx";
 
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
+		<div>
 			<header>
 				<Nabvar/>
 			</header>
 			<main className="container">
 				<Jumbotrom/>
-				<Cards/>
 			</main>
-			<footer class="container">
+			<footer className="text-center text-white fixed-bottom bg-dark" >
 				<Footers/>
 			</footer>
 		</div>
