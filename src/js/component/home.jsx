@@ -7,7 +7,7 @@ import Footers from "./footer.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div>
+		<div className="container-fluid">
 			<header>
 				<Nabvar/>
 			</header>
@@ -15,7 +15,7 @@ const Home = () => {
 				<Jumbotrom/>
 				<Cards/>
 			</main>
-			<footer className="text-muted py-5">
+			<footer className="container">
 				<Footers/>
 			</footer>
 		</div>
