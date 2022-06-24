@@ -1,14 +1,18 @@
 import React from "react";
 
+const jumbo = {
+    title: "A Warm Welcome!",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.",
+    buttonj: "Call to action!"
+}
+
 //create your first component
 const Jumbotrom = () => {
 	return (
         <div className="bg-light p-5 rounded">
-            <h1>A Warm Welcome!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt
-                odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.
-            </p>
-            <a class="btn btn-lg btn-primary" href="#" role="button">Call to action!</a>
+            <h1>{jumbo.title}</h1>
+            <p>{jumbo.description}</p>
+            <a class="btn btn-lg btn-primary" href="#" role="button">{jumbo.buttonj}</a>
         </div>
 	);
 };

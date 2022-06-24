@@ -15,7 +15,7 @@ const Home = () => {
 				<Jumbotrom/>
 				<Cards/>
 			</main>
-			<footer className="text-center text-white fixed-bottom bg-dark" >
+			<footer className="text-muted py-5">
 				<Footers/>
 			</footer>
 		</div>
