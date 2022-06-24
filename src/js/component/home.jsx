@@ -1,7 +1,7 @@
 import React from "react";
 import Nabvar from "./navbar.jsx";
 import Jumbotrom from "./main.jsx";
-/*import Cards from "./card";*/
+import Cards from "./card.jsx";
 import Footers from "./footer.jsx";
 
 //create your first component
@@ -13,6 +13,7 @@ const Home = () => {
 			</header>
 			<main className="container">
 				<Jumbotrom/>
+				<Cards/>
 			</main>
 			<footer className="text-center text-white fixed-bottom bg-dark" >
 				<Footers/>
