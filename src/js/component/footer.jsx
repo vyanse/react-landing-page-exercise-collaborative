@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+const Footers = () => {
     return (
         <div className="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
             Copyright © Your Website 2019
@@ -8,4 +8,4 @@ const Footer = () => {
     );
 }
 
-export default Footer;
+export default Footers;
